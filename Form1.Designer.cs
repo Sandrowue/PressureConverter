@@ -79,6 +79,7 @@
             textBoxpsi.Name = "textBoxpsi";
             textBoxpsi.Size = new Size(100, 23);
             textBoxpsi.TabIndex = 4;
+            textBoxpsi.Leave += textBoxpsi_Leave;
             // 
             // textBoxbar
             // 
@@ -86,6 +87,7 @@
             textBoxbar.Name = "textBoxbar";
             textBoxbar.Size = new Size(100, 23);
             textBoxbar.TabIndex = 5;
+            textBoxbar.Leave += textBoxbar_Leave;
             // 
             // buttonLaske
             // 
